@@ -17,8 +17,8 @@ Examples and excercises on this documentation help you create and use vitual mac
 .. toctree::
    :maxdepth: 1
 
+   account
    tutorial
-   .. `tutorial <tutorial.html>`_
    virtual_cluster
    hadoop_cluster
    mongodb_cluster
