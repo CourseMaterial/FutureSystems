@@ -15,7 +15,7 @@ accounts.
  - Step 1: `Create a portal account
    <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#s-account-create-account>`_
  - Step 2: `Join a project or create
-     <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#join-a-project>`_
+   <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#join-a-project>`_
  - Step 3: `Upload a SSH Public Key
    <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#upload-a-ssh-public-key>`_
 
