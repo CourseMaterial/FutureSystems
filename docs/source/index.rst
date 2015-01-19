@@ -20,7 +20,7 @@ To build one of these clusters on FutureSystems, Cloudmesh uses OpenStack Heat
 and Chef recipes. Interactive shell, Cloudmesh, provides a powerful interface
 to manage, create or delete virtual machines on FutureSystems.
 
-Examples and excercises on this documentation help you create and use vitual
+Examples and exercises on this documentation help you create and use virtual
 machines on FutureSystems including establishing these clusters.
 
 Tutorial

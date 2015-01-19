@@ -108,10 +108,10 @@ Cloudmesh provides a convenient way to create such a cluster of VMs
 steps:
 
 .. important::
-    Make sure you update your cloudmesh and the cloudmesh server is running.
+    Make sure you update your Cloudmesh and the Cloudmesh server is running.
     Open a terminal, execute the following commands, modify the values of the
     options according to your own environment and needs. Also you may execute 
-    these in cloudmesh CLI 'cm'.
+    these in Cloudmesh CLI 'cm'.
 
 1 select cloud to work on, e.g.::
 
@@ -252,8 +252,8 @@ Finally, in `/home/ubuntu/chef-repo` create solo.json for the specific
 instructions to Chef on what to install. This is the only file that
 will change between a manager and worker node installation. Both
 versions are shown below. Remember that you could configure
-differently, the HDFS namenode and YARN resoursemanager could be on
-different nodes, and the namenode and resoursemanager nodes could also
+differently, the HDFS namenode and YARN resourcemanager could be on
+different nodes, and the namenode and resourcemanager nodes could also
 be datanodes if desired. You may want to install and initialize your
 manager node prior to creating your worker node.
 

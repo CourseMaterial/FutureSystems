@@ -1,7 +1,7 @@
 Deploying Virtual Cluster with Cloudmesh ``cm``
 ===============================================
 
-To support the creation of a virtual compute cluster on cloudmesh, the command
+To support the creation of a virtual compute cluster on Cloudmesh, the command
 ``cluster`` can be used to start, configure, manage or update a number of
 virtual machines.
 

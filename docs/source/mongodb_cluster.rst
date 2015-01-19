@@ -1,4 +1,4 @@
-Mongodb Cluster
+MongoDB Cluster
 ===============
 
 TBD

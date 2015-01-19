@@ -3,7 +3,7 @@ Cloudmesh Preparation
 
 Cloudmesh needs to be configured on your desired machine to use Cloudmesh
 interactive shell commands. With a proper installation and configuration, you
-are ready to create a virtual machine (vm) or a virtual cluster on
+are ready to create a virtual machine (VM) or a virtual cluster on
 FutureSystems.
 
 .. note:: Don't have an FutureSystems account? Please `register <account.html>`_
@@ -24,7 +24,7 @@ start virtual machines. This can be achieved by the ``select`` command
 
     cm "cloud select india"
 
-.. note: this is a bit unintuitive and shold probably be done with
+.. note: this is a bit unintuitive and should probably be done with
 
 Also, new command is available:
 
@@ -69,8 +69,8 @@ example, we use ubuntu-14.04 image as a default.
 Default Flavor
 ~~~~~~~~~~~~~~
 
-You can chose a default flavor. However, make sure that the falvor
-actially works with the specified image. Some images require a minimal
+You can chose a default flavor. However, make sure that the flavor
+actually works with the specified image. Some images require a minimal
 flavor.
 
 .. code:: python
