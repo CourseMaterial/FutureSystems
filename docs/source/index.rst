@@ -13,3 +13,20 @@ The main contents are:
 
 To build one of these clusters on FutureSystems, Cloudmesh uses OpenStack Heat and Chef recipes.
 Examples and excercises on this documentation help you create and use vitual machines on FutureSystems including establishing these clusters.
+
+.. toctree::
+   :maxdepth: 1
+
+   tutorial
+   .. `tutorial <tutorial.html>`_
+   virtual_cluster
+   hadoop_cluster
+   mongodb_cluster
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
