@@ -5,7 +5,7 @@ To support the creation of a virtual compute cluster on cloudmesh, the command
 ``cluster`` can be used to start, configure, manage or update a number of
 virtual machines.
 
-.. note:: Don't have Cloudmesh? see the `preparation <preparation.html>`_
+.. note:: Don't have Cloudmesh? see the `preparation <cm-preparation.html>`_
 
 Create Virtual Cluster
 ----------------------

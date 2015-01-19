@@ -1,29 +1,36 @@
-Preparation (Optional)
+Cloudmesh Preparation
 ----------------------
 
-The ``cluster`` command is available in the cloudmesh shell. There are
-certain steps to make sure you are ready to deploy a new cluster. You
-can SKIP these steps if you have working cloudmesh on your system.
+Cloudmesh needs to be configured on your desired machine to use Cloudmesh
+interactive shell commands. With a proper installation and configuration, you
+are ready to create a virtual machine (vm) or a virtual cluster on
+FutureSystems.
 
-.. code:: python
+.. note:: Don't have an FutureSystems account? Please `register <account.html>`_
 
-    cm "cluster" 
-
-Before starting a cluster, please make sure you activate a cloud:
+Active cloud
+~~~~~~~~~~~~
+Before starting any command, please make sure you have an active cloud (IaaS).
+For example, you can simple choose *india* as your active cloud host:
 
 .. code:: python
 
     cm "cloud on india"
 
 Activation however does not select the cloud as the default cloud to
-start virtual machines. This is achieved by the select command
+start virtual machines. This can be achieved by the ``select`` command
 
 .. code:: python
 
     cm "cloud select india"
 
 .. note: this is a bit unintuitive and shold probably be done with
-``cloud default india``
+
+Also, new command is available:
+
+.. code:: python
+
+    cm "cloud default india"
 
 Default keypair
 ~~~~~~~~~~~~~~~
@@ -70,3 +77,8 @@ flavor.
 
     cm "default flavor --name=m1.small"
 
+Exercise
+--------
+
+* Can you create a virtual machine?
+* Can you see a list of running virtual machine?
