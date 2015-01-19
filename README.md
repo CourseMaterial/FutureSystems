@@ -1,5 +1,5 @@
 FutureSystems
 ==================
 
-This repository provides tutorials, manuals and other necessary data to use FutureSystems in a class.
+This repository provides tutorials, manuals and other necessary information to use FutureSystems in a class.
 
