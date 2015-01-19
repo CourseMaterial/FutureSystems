@@ -311,6 +311,11 @@ FAQ
 - Q. How do I delete a Hadoop Cluster?
 - A. ``cluster delete --group=[name]``
 
+Other resources
+---------------
+
+- `MyHadoop <http://cloudmesh.github.io/introduction_to_cloud_computing/paas/hadoop.html>`_
+
 Other questions?
 ----------------
 
