@@ -1,5 +1,5 @@
 Cloudmesh Preparation
-----------------------
+======================
 
 Cloudmesh needs to be configured on your desired machine to use Cloudmesh
 interactive shell commands. With a proper installation and configuration, you
