@@ -47,3 +47,21 @@ command:
 .. code:: python
 
     cm "vm list --refresh --group=test"
+
+Exercise
+---------
+
+- Try to access a master node of your cluster.
+- Create a Virtual Cluster with 5 VMs
+
+FAQ
+----
+
+- Q. How do I delete a Virtual Cluster?
+- A. ``cluster delete --group=[name]``
+
+Other questions?
+----------------
+
+- Forum via Git Issues: `Git Issues <>`_
+- Email: `Contact Us <contact.html>`_
