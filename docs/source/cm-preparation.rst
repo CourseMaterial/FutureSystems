@@ -82,3 +82,14 @@ Exercise
 
 * Can you create a virtual machine?
 * Can you see a list of running virtual machine?
+
+
+Next Step
+---------
+
+In the next page, we deploy a virtual cluster on FutureSystems using Cloudmesh.
+
+.. toctree::
+   :maxdepth: 1
+
+   virtual_cluster

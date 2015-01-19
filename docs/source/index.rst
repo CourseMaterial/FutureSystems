@@ -4,6 +4,13 @@ Cloud Computing on FutureSystems
 FutureSystems offers IaaS Cloud platforms (e.g. OpenStack Havana, Icehouse or
 Juno) to support Big Data applications on the cloud. Virtual clusters are
 available on FutureSystems for distributed and parallel computing applications.
+If you are using FutureSystems for the first time, you need an account first.
+Please go to the page:
+
+.. toctree::
+   :maxdepth: 1
+
+   getting_started
 
 This documentation contains tutorials, manuals and other materials to help
 students, scientists or employees who want to use cluster computing

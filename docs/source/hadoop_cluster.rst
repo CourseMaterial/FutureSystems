@@ -321,3 +321,13 @@ Other questions?
 
 - Forum via Git Issues: `Git Issues <>`_
 - Email: `Contact Us <contact.html>`_
+
+Next Step
+---------
+
+In the next page, we deploy a Sharded MongoDB cluster on FutureSystems using Cloudmesh.
+
+.. toctree::
+   :maxdepth: 1
+
+   mongodb_cluster
