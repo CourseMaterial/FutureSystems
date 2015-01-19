@@ -2,13 +2,12 @@ Cloud Computing on FutureSystems
 ================================
 
 FutureSystems offers IaaS Cloud platforms (e.g. OpenStack Havana, Icehouse or
-Juno) to support Big Data applications on the cloud.  Interactive shell,
-Cloudmesh, provides a powerful interface to manage, create or delete virtual
-machines on FutureSystems.
+Juno) to support Big Data applications on the cloud. Virtual clusters are
+available on FutureSystems for distributed and parallel computing applications.
 
-This repository contains tutorials, manuals and other materials to help
-students, scientists or employees who want to use FutureSystems.  The main
-contents are:
+This documentation contains tutorials, manuals and other materials to help
+students, scientists or employees who want to use cluster computing
+environments on FutureSystems.  The main contents are:
 
 .. toctree::
    :maxdepth: 1
@@ -18,9 +17,16 @@ contents are:
    mongodb_cluster
 
 To build one of these clusters on FutureSystems, Cloudmesh uses OpenStack Heat
-and Chef recipes.  Examples and excercises on this documentation help you
-create and use vitual machines on FutureSystems including establishing these
-clusters.
+and Chef recipes. Interactive shell, Cloudmesh, provides a powerful interface
+to manage, create or delete virtual machines on FutureSystems.
+
+Examples and excercises on this documentation help you create and use vitual
+machines on FutureSystems including establishing these clusters.
+
+Tutorial
+--------
+
+- `Deploy a Sharded MongoDB Cluster (30 mins) TBD <http://docs.mongodb.org/manual/tutorial/deploy-shard-cluster/>`_
 
 Support
 -------
