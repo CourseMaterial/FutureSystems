@@ -40,18 +40,18 @@ Configure Instances
 * Create data directories for each of the three config server instances. By
   default, a config server stores its data files in the /data/configdb
   directory.  You can choose a different location. To create a data directory,
-  issue a command similar to the following: 
+  issue a command similar to the following::
 
         mkdir /data/configdb
         
 * Start the three config server instances. Start each by issuing a command
-  using the following syntax: 
+  using the following syntax:: 
   
         mongod --configsvr --dbpath <path> --port <port>
 
   The default port for config servers is 27019. You can specify a different
   port. The following example starts a config server using the default port and
-  default data directory: 
+  default data directory:: 
   
         mongod --configsvr --dbpath /data/configdb --port 27019
 
