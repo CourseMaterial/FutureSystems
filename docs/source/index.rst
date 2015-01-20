@@ -30,10 +30,10 @@ to manage, create or delete virtual machines on FutureSystems.
 Examples and exercises on this documentation help you create and use virtual
 machines on FutureSystems including establishing these clusters.
 
-Tutorial
---------
+.. Tutorial
+.. --------
 
-- `Deploy a Sharded MongoDB Cluster (30 mins) TBD <http://docs.mongodb.org/manual/tutorial/deploy-shard-cluster/>`_
+.. - `Deploy a Sharded MongoDB Cluster (30 mins) TBD <http://docs.mongodb.org/manual/tutorial/deploy-shard-cluster/>`_
 
 Support
 -------
