@@ -8,6 +8,24 @@ FutureSystems.
 
 .. note:: Don't have an FutureSystems account? Please `register <account.html>`_
 
+Installation 
+------------
+
+Cloudmesh can be installed in different environments such as your desktop,
+OpenStack, or VirtualBox.  `QuickStart
+<http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/setup_openstack.html>`_
+describes easy installation on OpenStack India.  If you are looking for other
+methods to install Cloudmesh, please refere `here
+<http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/index.html>`_
+
+Configuration
+---------------
+
+Once you have installed Cloudmesh, you need to configure Cloudmesh. For
+example, you need to setup Cloudmesh with your account information and
+keypairs. The following sections provide instructions to configure Cloudmesh
+properly.
+
 Active cloud
 ~~~~~~~~~~~~
 Before starting any command, please make sure you have an active cloud (IaaS).

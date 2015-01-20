@@ -7,27 +7,10 @@ virtual machines.
 
 .. note:: Don't have Cloudmesh? see the `preparation <cm-preparation.html>`_
 
-Create Virtual Cluster
-----------------------
+Create Virtual Cluster with 3 virtual machines
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cloudmesh provides a simple command to create a virtual cluster.
-``cluster create`` can be executed along with the following options:
-
-| ``--count``
-|  specify amount of VMs in the cluster
-
-| ``--group``
-|  specify a group name of the cluster, make sure it's UNIQUE
-
-| ``--ln``
-|  login name for VMs, e.g. ubuntu
-
-Create 3 virtual machines
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code:: python
-
-    Let us create a cluster with the group name test that contains 3 virtual machines.
+You can create a virtual cluster with a group name *test* and 3 virtual instances.
 
 .. code:: python
 
@@ -39,7 +22,7 @@ the following do do so:
 
 .. code:: python
 
-    cm "cluster create --count=3 --group=test0 --ln=ubuntu --cloud=india --flavor=m1.small --image=futuregrid/ubuntu-14.04"
+    cm "cluster create --count=3 --group=test0 --ln=ubuntu --cloud=india --flavor=m1.small --image=futuresystems/ubuntu-14.04"
 
 You can display the status of vms for the cluster with the ``vm list``
 command:
@@ -53,6 +36,21 @@ Exercise
 
 - Try to access a master node of your cluster.
 - Create a Virtual Cluster with 5 VMs
+
+Cloudmesh ``cluster`` command
+-----------------------------
+
+Cloudmesh provides a simple command to create a virtual cluster.
+``cluster create`` can be executed along with the following options:
+
+| ``--count``
+|  specify amount of VMs in the cluster
+
+| ``--group``
+|  specify a group name of the cluster, make sure it's UNIQUE
+
+| ``--ln``
+|  login name for VMs, e.g. ubuntu
 
 FAQ
 ----
