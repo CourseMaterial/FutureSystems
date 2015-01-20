@@ -18,6 +18,8 @@ describes easy installation on OpenStack India.  If you are looking for other
 methods to install Cloudmesh, please refere `here
 <http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/index.html>`_
 
+.. tip:: Approximate time: 30 minutes
+
 Configuration
 ---------------
 
@@ -25,6 +27,8 @@ Once you have installed Cloudmesh, you need to configure Cloudmesh. For
 example, you need to setup Cloudmesh with your account information and
 keypairs. The following sections provide instructions to configure Cloudmesh
 properly.
+
+.. tip:: Approximate time: 10 minutes
 
 Active cloud
 ~~~~~~~~~~~~

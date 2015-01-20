@@ -28,6 +28,8 @@ public IP address is also assigned to the node using floating IPs.
 * Image: futuresystems/ubuntu-14.04
 * Cloud: India
 
+.. tip:: Approximate time: 10 minutes
+
 Create Virtual Cluster with 3 virtual machines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
