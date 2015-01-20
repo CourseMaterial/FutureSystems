@@ -78,13 +78,15 @@ To start a mongos instance, issue a command using the following syntax::
 For example, to start a mongos that connects to config server instance running
 on the following hosts and on the default ports::
 
-        cfg0.example.net
-        cfg1.example.net
-        cfg2.example.net
+        albert_1-i
+        albert_2-i
+        albert_3-i
 
 You would issue the following command::
 
-        mongos --configdb cfg0.example.net:27019,cfg1.example.net:27019,cfg2.example.net:27019
+        mongos --configdb albert_1-i:27019,albert_2-i:27019,albert_3-i:27019
+
+*albert_1-i, albert_2-i, and albert_3-i are hostnames for internal IPs*
 
 Each mongos in a sharded cluster must use the same configDB string, with
 identical host names listed in identical order.
