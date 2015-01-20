@@ -52,6 +52,24 @@ command:
 
     cm "vm list --refresh --group=virtual_cluster"
 
+Login a node of Cluster
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+``vm login`` command can be used to ssh one of the nodes in the cluster.
+
+.. code:: python
+
+    cm "vm login albert_1 -ln=ubuntu"
+
+*albert_1 is a virtual instance name in the cluster.*
+
+Terminate Virtual Cluster
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you completed your task on the cluster, you may terminate the virtual cluster using Cloudmesh.
+
+``cluster remove [name]`` simply shuts down a node(s) of the cluster.
+
 Exercise
 ---------
 
