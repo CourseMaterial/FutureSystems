@@ -25,6 +25,7 @@ other operating systems, please use its package management program e.g. yum or
 brew.
 
 ::
+
    (Ubuntu)
    sudo apt-get install mongodb-server
 
@@ -42,7 +43,7 @@ Configure Instances
   directory.  You can choose a different location. To create a data directory,
   issue a command similar to the following::
 
-        mkdir /data/configdb
+        sudo mkdir -p /data/configdb
         
 * Start the three config server instances. Start each by issuing a command
   using the following syntax:: 
@@ -53,7 +54,7 @@ Configure Instances
   port. The following example starts a config server using the default port and
   default data directory:: 
   
-        mongod --configsvr --dbpath /data/configdb --port 27019
+        sudo mongod --configsvr --dbpath /data/configdb --port 27019 &
 
 For additional command options, see mongod or Configuration File Options.
 
@@ -70,18 +71,18 @@ mongos instance runs on port 27017.
 When you start the mongos instance, specify the hostnames of the three config
 servers, either in the configuration file or as command line parameters.
 
-To start a mongos instance, issue a command using the following syntax:
+To start a mongos instance, issue a command using the following syntax::
 
         mongos --configdb <config server hostnames>
 
 For example, to start a mongos that connects to config server instance running
-on the following hosts and on the default ports:
+on the following hosts and on the default ports::
 
         cfg0.example.net
         cfg1.example.net
         cfg2.example.net
 
-You would issue the following command:
+You would issue the following command::
 
         mongos --configdb cfg0.example.net:27019,cfg1.example.net:27019,cfg2.example.net:27019
 
@@ -99,11 +100,11 @@ A shard can be a standalone mongod or a replica set. In a production
 environment, each shard should be a replica set. Use the procedure in Deploy a
 Replica Set to deploy replica sets for each shard.
 
-* From a mongo shell, connect to the mongos instance. Issue a command using the following syntax:
+* From a mongo shell, connect to the mongos instance. Issue a command using the following syntax::
 
   mongo --host <hostname of machine running mongos> --port <port mongos listens on>
 
-  For example, if a mongos is accessible at mongos0.example.net on port 27017, issue the following command:
+  For example, if a mongos is accessible at mongos0.example.net on port 27017, issue the following command::
 
     mongo --host mongos0.example.net --port 27017
 
@@ -118,15 +119,15 @@ Replica Set to deploy replica sets for each shard.
    MongoDB automatically assigns a name and maximum size. To use the database
    command, see addShard.
 
-The following are examples of adding a shard with sh.addShard():
+The following are examples of adding a shard with sh.addShard()::
 
   * To add a shard for a replica set named rs1 with a member running on port
-    27017 on mongodb0.example.net, issue the following command:
+    27017 on mongodb0.example.net, issue the following command::
 
           sh.addShard( "rs1/mongodb0.example.net:27017" )
 
     For MongoDB versions prior to 2.0.3, you must specify all members of the
-    replica set. For example:
+    replica set. For example::
 
 
           sh.addShard(
@@ -134,7 +135,7 @@ The following are examples of adding a shard with sh.addShard():
           )
 
  * To add a shard for a standalone mongod on port 27017 of
-   mongodb0.example.net, issue the following command:
+   mongodb0.example.net, issue the following command::
 
         sh.addShard( "mongodb0.example.net:27017" )
 
@@ -151,17 +152,17 @@ Once you enable sharding for a database, MongoDB assigns a primary shard for
 that database where MongoDB stores all data before sharding begins.
 
 * From a mongo shell, connect to the mongos instance. Issue a command using the
-  following syntax:
+  following syntax::
 
   mongo --host <hostname of machine running mongos> --port <port mongos listens on>
 
 * Issue the sh.enableSharding() method, specifying the name of the database for
-  which to enable sharding. Use the following syntax:
+  which to enable sharding. Use the following syntax::
 
   sh.enableSharding("<database>")
 
 Optionally, you can enable sharding for a database using the enableSharding
-command, which uses the following syntax:
+command, which uses the following syntax::
 
   db.runCommand( { enableSharding: <database> } )
 
@@ -179,7 +180,7 @@ You enable sharding on a per-collection basis.
   the index as part of the sh.shardCollection() step.
 
 * Enable sharding for a collection by issuing the sh.shardCollection() method
-  in the mongo shell. The method uses the following syntax:
+  in the mongo shell. The method uses the following syntax::
 
   sh.shardCollection("<database>.<collection>", shard-key-pattern)
 
@@ -198,7 +199,7 @@ You enable sharding on a per-collection basis.
           sh.shardCollection("assets.chairs", { "type": 1, "_id": 1 } )
           sh.shardCollection("events.alerts", { "_id": "hashed" } )
 
-In order, these operations shard:
+In order, these operations shard::
 
 * The people collection in the records database using the shard key {
   "zipcode": 1, "name": 1 }.  This shard key distributes documents by the value
