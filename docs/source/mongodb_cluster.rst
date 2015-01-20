@@ -17,6 +17,23 @@ the OpenStack India. See the page:
 
    virtual_cluster
 
+Install Mongodb Server
+----------------------
+
+Install mongodb server on each of the three virtual instances. If you have
+other operating systems, please use its package management program e.g. yum or
+brew.
+
+::
+   (Ubuntu)
+   sudo apt-get install mongodb-server
+
+   (CentOS)
+   sudo yum install mongodb-server
+
+   (Mac OS)
+   sudo brew install mongodb-server
+
 Configure Instances
 -------------------
 
