@@ -124,11 +124,11 @@ Replica Set to deploy replica sets for each shard.
 
 * From a mongo shell, connect to the mongos instance. Issue a command using the following syntax::
 
-  mongo --host <hostname of machine running mongos> --port <port mongos listens on>
+    mongo --host <hostname of machine running mongos> --port <port mongos listens on>
 
   For example, if a mongos is accessible at mongos0.example.net on port 27017, issue the following command::
 
-    mongo --host mongos0.example.net --port 27017
+    mongo --host albert_1-i --port 27017
 
 
 * Add each shard to the cluster using the sh.addShard() method, as shown in the
@@ -146,20 +146,20 @@ The following are examples of adding a shard with sh.addShard()::
   * To add a shard for a replica set named rs1 with a member running on port
     27017 on mongodb0.example.net, issue the following command::
 
-          sh.addShard( "rs1/mongodb0.example.net:27017" )
+          sh.addShard( "rs1/albert_1-i:27017" )
 
     For MongoDB versions prior to 2.0.3, you must specify all members of the
     replica set. For example::
 
 
           sh.addShard(
-          "rs1/mongodb0.example.net:27017,mongodb1.example.net:27017,mongodb2.example.net:27017"
+          "rs1/albert_1-i:27017,albert_2-i:27017,albert_3-i:27017"
           )
 
  * To add a shard for a standalone mongod on port 27017 of
    mongodb0.example.net, issue the following command::
 
-        sh.addShard( "mongodb0.example.net:27017" )
+        sh.addShard( "albert_1-i:27017" )
 
 .. note:: It might take some time for chunks to migrate to the new shard.
 
