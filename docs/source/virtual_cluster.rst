@@ -121,7 +121,7 @@ FAQ
 - A. ``cluster remove [name]``
 
 - Q. I cannot find ``cluster`` command on my cloudmesh.
-  A. You need to download latest cloudmesh on Github. Please see `the download page <cm_download.html>`_
+- A. You need to download latest cloudmesh on Github. Please see `the download page <cm_download.html>`_
 
 Other questions?
 ----------------
