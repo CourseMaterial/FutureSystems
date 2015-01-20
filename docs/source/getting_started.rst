@@ -37,6 +37,4 @@ The next steps explain how to install and use Cloudmesh:
 .. toctree::
    :maxdepth: 1
    
-   - Step 5: 
-   cm-preparation
-   - Step 5: cm-preparation
+   cm_preparation
