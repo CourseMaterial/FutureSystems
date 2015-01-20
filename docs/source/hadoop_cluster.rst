@@ -331,7 +331,7 @@ As a first tryout, we have developed a deployment of Hadoop Cluster. For detail,
 .. toctree::
    :maxdepth: 1
 
-        hadoop_cluster_chef
+   hadoop_cluster_chef
 
 *Note that this is experimental, some features may not work properly.*
 
