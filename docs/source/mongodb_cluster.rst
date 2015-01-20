@@ -5,6 +5,26 @@ This tutorial shows deploying a sharded mongodb cluster on india.futuresystems.o
 
 .. tip:: Approximate time: 30 minutes
 
+MongoDB Sharding Overview
+-------------------------
+
+.. image:: images/mongodb-overview.png
+Figure 1. Sharding Mongodb
+*Image reference: http://docs.mongodb.org/master/MongoDB-sharding-guide.pdf*
+
+* Shards store the data. To provide high availability and data consistency, in
+  a production sharded cluster, each shard is a replica set 1
+* Query Routers, or mongos instances, interface with client applications and
+  direct operations to the appropriate shard or shards. The query router
+  processes and targets operations to shards and then returns results to the
+  clients. A sharded cluster can contain more than one query router to divide
+  the client request load. A client sends requests to one query router. Most
+  sharded clusters have many query routers.
+* Config servers store the cluster’s metadata. This data contains a mapping of
+  the cluster’s data set to the shards. The query router uses this metadata to
+  target operations to specific shards. Production sharded clusters have
+  exactly 3 config servers
+
 Start Virtual Cluster for Database
 ----------------------------------
 
