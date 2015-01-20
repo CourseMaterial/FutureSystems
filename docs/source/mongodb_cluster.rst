@@ -10,9 +10,12 @@ Start Virtual Cluster for Database
 
 In this test environment, three instances are required to connect mongodb
 databases on the cloud. Try *cm cluster* command to create virtual machines in
-the OpenStack India.
+the OpenStack India. See the page:
 
-.. note:: `cm virtual cluster <virtual_cluster.html>`_
+.. toctree::
+   :maxdepth: 1
+
+   virtual_cluster
 
 Configure Instances
 -------------------
