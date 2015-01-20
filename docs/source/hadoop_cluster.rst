@@ -319,7 +319,7 @@ Other resources
 Other questions?
 ----------------
 
-- Forum via Git Issues: `Git Issues <>`_
+- Forum via Git Issues: `Git Issues <https://github.com/CourseMaterial/introduction_to_cloud_computing/issues>`_
 - Email: `Contact Us <contact.html>`_
 
 Next Step
