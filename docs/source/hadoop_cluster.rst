@@ -322,6 +322,19 @@ Other questions?
 - Forum via Git Issues: `Git Issues <https://github.com/CourseMaterial/introduction_to_cloud_computing/issues>`_
 - Email: `Contact Us <contact.html>`_
 
+Deploying Hadoop Cluster with Chef (Experimental)
+--------------------------------------------------
+
+We are currently developing a new method to deploy Virtual Cluster with Chef recipes and OpenStack Heat.
+As a first tryout, we have developed a deployment of Hadoop Cluster. For detail, see the next page:
+
+.. toctree::
+   :maxdepth: 1
+
+        hadoop_cluster_chef
+
+*Note that this is experimental, some features may not work properly.*
+
 Next Step
 ---------
 

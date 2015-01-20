@@ -2,31 +2,10 @@
 Deploying Data-Intensive Cluster on Cloudmesh (New)
 ===================================================
 
-.. raw:: html
-
-   <button type="button" class="btn btn-default navbar-btn">
-
-`Notebook <http://localhost:8888/notebooks/docs/source/cloudmesh/cm/_cm-cluster.ipynb>`__
-
-.. raw:: html
-
-   </button>
-
 To support a compute cluster (e.g. Hadoop or Slurm) on Cloudmesh, we are
 offering a new command ``cluster`` to start, configure, manage or update
 compute nodes (VMs).
 
-IPython Alias
-~~~~~~~~~~~~~
-
-With the alias command we simply define a new command with the name cm
-that we can call directly from IPython. Here we make sure that the
-parameters ar between "" so that they are properly set. Just execute the
-following lines.
-
-.. code:: python
-
-    alias cm cm %s
 Using Cluster on Cloud IaaS Platform
 ------------------------------------
 

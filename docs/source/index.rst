@@ -48,4 +48,4 @@ Resources
 - `Exercises <>`_
 - `Examples <>`_
 - `Videos <>`_
-- `Additional pages <additional_examples>`_
+- `Additional pages <additional_examples.html>`_
