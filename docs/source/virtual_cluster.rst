@@ -7,6 +7,27 @@ virtual machines.
 
 .. note:: Don't have Cloudmesh? see the `preparation <cm_preparation.html>`_
 
+Tutorial: Creating Virtual Cluster 
+-----------------------------------
+
+To perform distributed processing software, you may need to use clusters for
+better performance.  Cloudmesh allows users to choose different images, flavors
+or a node size of clusters, so that users use virtual instances efficiently for
+their analysis with less wasting resources.
+
+In this tutorial, we create Virtual Cluster with three virtual instances. Each
+virtual instance uses a m1.small flavor (1 vCPU, 2GB Memory, 20GB disk) and a
+Ubuntu 14.04 distribution.
+
+Each node is supposed to communicate with other nodes in the same cluster and
+public IP address is also assigned to the node using floating IPs.
+
+* Cluster Name: virtual_cluster
+* VMs: 3 virtual instances
+* Flavor: m1.small
+* Image: futuresystems/ubuntu-14.04
+* Cloud: India
+
 Create Virtual Cluster with 3 virtual machines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,7 +61,7 @@ Exercise
 Cloudmesh ``cluster`` command
 -----------------------------
 
-To create, list, or remove clusters, try to use ``cm cluster`` command.
+To create, list, or remove clusters, use ``cm cluster`` command.
 
 .. tip:: latest repository is required (dev1.3). Please `download latest cloudmesh <cm_download.html>`_
 
