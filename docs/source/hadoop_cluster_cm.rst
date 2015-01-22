@@ -53,7 +53,7 @@ Login Cluster
 We use ``cm vm login`` command to ssh to one of the nodes in the cluster.
 Issue ``vm list`` first to see the list of virtual instances.
 
-* Checking a login node name
+* Checking a node name to login
 
 ::
 
@@ -79,10 +79,43 @@ You expect the result similar to:
         | albert-server-54zmzloc5tp | ACTIVE   | 10.39.1.41, 149.165.159.01 | m1.small | cloudmesh/ipynb-n-java     |
         +---------------------------+----------+----------------------------+----------+----------------------------+
 
+We found that hadoop1 is a node to log in.
+
+* SSH to a node
 
 ::
 
         cm vm login [node name]
+
+In this example, we try to ssh to ``hadoop1`` with ``ec2-user`` user name.
+
+::
+
+        cm vm login hadoop1 --ln=ec2-user
+
+You expect the result similar to:
+
+.. parsed-literal::
+
+        Welcome to Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-40-generic x86_64)
+
+         * Documentation:  https://help.ubuntu.com/
+
+           System information as of Thu Jan 22 19:28:05 UTC 2015
+
+           System load:  0.01              Processes:           72
+           Usage of /:   6.9% of 19.65GB   Users logged in:     0
+           Memory usage: 23%               IP address for eth0: 10.39.1.48
+           Swap usage:   0%
+
+           Graph this data and manage this system at:
+             https://landscape.canonical.com/
+
+           Get cloud support with Ubuntu Advantage Cloud Guest:
+             http://www.ubuntu.com/business/services/cloud
+
+
+       $ 
 
 Terminate Cluster
 ~~~~~~~~~~~~~~~~~
