@@ -33,24 +33,19 @@ properly.
 Active cloud
 ~~~~~~~~~~~~
 Before starting any command, please make sure you have an active cloud (IaaS).
-For example, you can simple choose *india* as your active cloud host:
-
-.. code:: python
+For example, you can simple choose *india* as your active cloud host::
 
     cm cloud on india
 
 Activation however does not select the cloud as the default cloud to
-start virtual machines. This can be achieved by the ``select`` command
-
-.. code:: python
+start virtual machines. This can be achieved by the ``select`` command::
 
     cm cloud select india
 
 .. note: this is a bit unintuitive and should probably be done with
 
-Also, new command is available:
-
-.. code:: python
+To set the indi cloud to be the default cloud you can use in addition
+the command::
 
     cm cloud default india
 
@@ -66,9 +61,7 @@ them. On india you have a username that you can print with::
 
   echo $USER
 
-and use this name as it is a unique prefix. 
-
-.. code:: python
+and use this name as it is a unique prefix::
 
     cm key default $USER-key
 
@@ -79,19 +72,16 @@ You can also define the name of VMs which contains a prefix and an index
 with the ``label`` command. However, the name of the vms must be unique.
 By default your username and a number will be used that will be
 automatically increased. Thus we recommend that you avoid using this
-command.
-
-.. code:: python
+command::
 
     cm label --prefix=test --id=1
 
+    
 Default Image
 ~~~~~~~~~~~~~
 
 You can choose a default image to create a virtual machine. In this
-example, we use ubuntu-14.04 image as a default.
-
-.. code:: python
+example, we use ubuntu-14.04 image as a default::
 
     cm default image --name=futuregrid/ubuntu-14.04
 
@@ -100,9 +90,7 @@ Default Flavor
 
 You can chose a default flavor. However, make sure that the flavor
 actually works with the specified image. Some images require a minimal
-flavor.
-
-.. code:: python
+flavor::
 
     cm default flavor --name=m1.small
 
