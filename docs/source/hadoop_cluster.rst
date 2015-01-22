@@ -11,8 +11,9 @@ Slide
 * In conlusion we have a much easier way to set up hadop clusters
 
 * Alternatives: openstack ??? technology
-  
-NEXT
+
+   
+`Next >> <mongodb_cluster.html>`_
 
 Introduction
 -------------
