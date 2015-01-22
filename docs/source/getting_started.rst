@@ -29,11 +29,11 @@ OpenStack Juno will be supported very soon.
 
  - Step 4: `OpenStack on FutureSystems <http://cloudmesh.github.io/introduction_to_cloud_computing/iaas/openstack.html>`_
 
-test |testing| test.
+ - Step 4: |openstackonfuturesystems| *External link in a New Window*
 
-.. |testing| raw:: html
+.. |openstackonfuturesystems| raw:: html
         
-        <a href="http://geoiptool.com" target="_blank">check your location here</a>
+        <a href="http://cloudmesh.github.io/introduction_to_cloud_computing/iaas/openstack.html" target="_blank">OpenStack on FutureSystems</a>
 
 Interactive Shell: Cloudmesh
 ----------------------------
