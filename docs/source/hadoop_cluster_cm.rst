@@ -117,15 +117,48 @@ You expect the result similar to:
 
        $ 
 
+* Switch to ``root`` user
+
+  You are expected to run hadoop commands as a root superuser.
+ 
+::
+
+        sudo su -
+
+
 Terminate Cluster
 ~~~~~~~~~~~~~~~~~
 
 Once you completed your task on the cluster, you can terminate the cluster with
 ``cm launcher stop [name]`` command.
 
+* Check a cluster name to stop
+
+::
+
+        cm launcher list
+
+You expect the result similar to:
+
+.. parsed-literal::
+
+        +--------------------------------------+-------------------------------+------------------------------------+-----------------+----------------------+----------+
+        | launcher_id                          | stack_name                    | description                        | stack_status    | creation_time        | cm_cloud |
+        +--------------------------------------+-------------------------------+------------------------------------+-----------------+----------------------+----------+
+        | 14ec7ceb-ce12-4b18-9c31-d398c6e76b78 | **launcher-albert-hadoop-DB8JDK** | Hadoop cluster with OpenStack Heat | CREATE_COMPLETE | 2015-01-22T16:25:23Z | india    |
+        +--------------------------------------+-------------------------------+------------------------------------+-----------------+----------------------+----------+
+
+* Terminate a cluster
+
 ::
 
         cm launcher stop [name]
+
+In this tutorial, we terminate ``launcher-albert-hadoop-DB8JDK`` like this:
+
+::
+
+        cm launcher stop launcher-albert-hadoop-DB8JDK
 
 
 * DELETE_IN_PROGRESS: shutting down instances is in progress.
@@ -139,6 +172,6 @@ In the next page, we deploy a Sharded MongoDB cluster on FutureSystems using Clo
 .. toctree::
    :maxdepth: 1
 
-   mongodb_cluster
+   mongodb_cluster <Next - Deploying MongoDB Cluster>
 
 
