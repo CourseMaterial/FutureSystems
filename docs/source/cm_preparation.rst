@@ -16,7 +16,7 @@ OpenStack, or VirtualBox.  `QuickStart
 <http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/setup_openstack.html>`_
 describes easy installation on OpenStack India.  If you are looking for other
 methods to install Cloudmesh, please refere `here
-<http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/index.html>`_
+<http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/index.html>`_.
 
 .. tip:: Approximate time: 30 minutes
 
@@ -83,7 +83,7 @@ Default Image
 You can choose a default image to create a virtual machine. In this
 example, we use ubuntu-14.04 image as a default::
 
-    cm default image --name=futuregrid/ubuntu-14.04
+    cm default image --name=futuresystems/ubuntu-14.04
 
 Default Flavor
 ~~~~~~~~~~~~~~
