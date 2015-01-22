@@ -7,6 +7,9 @@ update compute nodes (VMs) with selected applications. ``launcher`` command
 applies default settings to configure clusters with applications so users can
 avoid hassles of building clusters.
 
+.. contents:: Table of Contents
+   :depth: 2
+
 Tutorial: Deploying Hadoop Cluster with ``cm launcher``
 ------------------------------------------------------
 

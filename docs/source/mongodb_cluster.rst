@@ -5,6 +5,9 @@ This tutorial shows deploying a sharded mongodb cluster on india.futuresystems.o
 
 .. tip:: Approximate time: 30 minutes
 
+.. contents:: Table of Contents
+   :depth: 2
+
 MongoDB Sharding Overview
 -------------------------
 

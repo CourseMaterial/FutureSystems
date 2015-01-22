@@ -1,7 +1,7 @@
 Deploying Hadoop Cluster
 =========================
 
-Slide
+Slides
 ----------------------------------------------------------------------
 
 * Deploying hadoop clusters may not be as easy as one may think.
@@ -10,10 +10,10 @@ Slide
       
 * In conlusion we have a much easier way to set up hadop clusters
 
-* Alternatives: openstack ??? technology
+.. * Alternatives: openstack ??? technology
 
    
-`Next >> <mongodb_cluster.html>`_
+`Next page >> <mongodb_cluster.html>`_
 
 Introduction
 -------------
