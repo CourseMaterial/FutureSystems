@@ -21,7 +21,7 @@ Start Cluster
 
 ``launcher start`` command deploys a cluster with a selected application.
 
-.. code:: python
+::
 
         cm launcher start hadoop
 
@@ -31,8 +31,8 @@ Check Status of Cluster
 Initializing a cluster requires some time for installing packages, configuring networks, etc.
 While it is initiated, you can check the status of your cluster deployment.
 
-.. code:: python
-        
+::
+
         cm launcher list
 
 * CREATE_IN_PROGRESS: cluster is not available because creating the cluster is in progress.
@@ -44,11 +44,11 @@ Login Cluster
 We use ``cm vm login`` command to ssh to one of the nodes in the cluster.
 Issue ``vm list`` first to see the list of virtual instances.
 
-.. code:: python
+::
 
         cm vm list
 
-.. code:: python
+::
 
         cm vm login [node name]
 
@@ -58,7 +58,7 @@ Terminate Cluster
 Once you completed your task on the cluster, you can terminate the cluster with
 ``cm launcher stop [name]`` command.
 
-.. code:: python
+::
 
         cm launcher stop [name]
 
