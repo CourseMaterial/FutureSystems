@@ -35,33 +35,29 @@ Create Virtual Cluster with 3 virtual machines
 
 You can create a virtual cluster with a group name *test* and 3 virtual instances.
 
-.. code:: python
+::
 
-    cm "cluster create virtual_cluster --count=3 --ln=ubuntu"
+    cm cluster create virtual_cluster --count=3 --ln=ubuntu
 
 You may also provide a cloud name, flavor or image as parameter in the
 command if you do not want to use the defaults. For example you can use
-the following do do so:
+the following do do so::
 
-.. code:: python
-
-    cm "cluster create virtual_cluster_ext --count=3 --ln=ubuntu --cloud=india --flavor=m1.small --image=futuresystems/ubuntu-14.04"
+    cm cluster create virtual_cluster_ext --count=3 --ln=ubuntu --cloud=india --flavor=m1.small --image=futuresystems/ubuntu-14.04
 
 You can display the status of vms for the cluster with the ``vm list``
-command:
+command::
 
-.. code:: python
-
-    cm "vm list --refresh --group=virtual_cluster"
+    cm vm list --refresh --group=virtual_cluster
 
 Login a node of Cluster
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``vm login`` command can be used to ssh one of the nodes in the cluster.
 
-.. code:: python
+::
 
-    cm "vm login albert_1 -ln=ubuntu"
+    cm vm login albert_1 --ln=ubuntu
 
 *albert_1 is a virtual instance name in the cluster.*
 
