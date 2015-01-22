@@ -37,7 +37,7 @@ For example, you can simple choose *india* as your active cloud host:
 
 .. code:: python
 
-    cm "cloud on india"
+    cm cloud on india
 
 Activation however does not select the cloud as the default cloud to
 start virtual machines. This can be achieved by the ``select`` command
