@@ -7,6 +7,8 @@ virtual machines.
 
 .. note:: Don't have Cloudmesh? see the `preparation <cm_preparation.html>`_
 
+.. contents:: Table of Contents
+
 Tutorial: Creating Virtual Cluster 
 -----------------------------------
 
