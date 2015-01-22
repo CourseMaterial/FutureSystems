@@ -172,8 +172,6 @@ In the next page, we deploy a Sharded MongoDB cluster on FutureSystems using Clo
 .. toctree::
    :maxdepth: 1
 
-   mongodb_cluster <Next - Deploying MongoDB Cluster>
-   mongodb_cluster <Next>
-   mongodb_cluster
+   Next - Deploying MongoDB Cluster <mongodb_cluster> 
 
 
