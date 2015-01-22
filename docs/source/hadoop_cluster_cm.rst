@@ -34,6 +34,17 @@ While it is initiated, you can check the status of your cluster deployment.
 
         cm launcher list
 
+You expect the result similar to:
+
+.. parsed-literal::
+
++--------------------------------------+------------------------------+------------------------------------+--------------------+----------------------+----------+
+| launcher_id                          | stack_name                   | description                        | stack_status       | creation_time        | cm_cloud |
++--------------------------------------+------------------------------+------------------------------------+--------------------+----------------------+----------+
+| 14ec7ceb-ce12-4b18-9c31-d398c6e76b78 | launcher-albert-hadoop-DB8JDK | Hadoop cluster with OpenStack Heat | CREATE_IN_PROGRESS | 2015-01-22T16:25:23Z | india    |
++--------------------------------------+------------------------------+------------------------------------+--------------------+----------------------+----------+
+
+
 * CREATE_IN_PROGRESS: cluster is not available because creating the cluster is in progress.
 * CREATE_COMPLETE: cluster has been created and it is ready to use.
 
