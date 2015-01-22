@@ -1,4 +1,3 @@
-
 Deploying Hadoop Cluster with Cloudmesh ``launcher``
 ====================================================
 
@@ -138,5 +137,3 @@ understand whether it is successfully installed or not. Also, testing
 command or script can be executed to verify the installation with
 ``cloudmesh cluster``. If there was error occurred, rollback would be
 performed.
-
-
