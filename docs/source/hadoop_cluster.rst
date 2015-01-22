@@ -1,6 +1,19 @@
 Deploying Hadoop Cluster
 =========================
 
+Slide
+----------------------------------------------------------------------
+
+* Deploying hadoop clusters may not be as easy as one may think.
+
+    * Setup keys, setup permissions, reserve compute servers
+      
+* In conlusion we have a much easier way to set up hadop clusters
+
+* Alternatives: openstack ??? technology
+  
+NEXT
+
 Introduction
 -------------
 
