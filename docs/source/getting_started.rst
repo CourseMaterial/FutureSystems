@@ -6,8 +6,8 @@ FutureSystems provides cloud compute resources to students, scientists and
 researchers with a registered account and a project.  You can create a new
 FutureSystems account and create a new project or join an existing project.
 
-Account Setup
--------------
+Account Setup (Optional)
+----------------------------
 
 If you are new to FutureSystems, you need to get a new account first. 
 Computing resources on FutureSystems are only available to registered 
@@ -20,14 +20,18 @@ accounts.
  - Step 3: `Upload a SSH Public Key
    <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#upload-a-ssh-public-key>`_
 
-Access Cloud: OpenStack
-------------------------------
+Access Cloud: OpenStack (Optional)
+------------------------------------
 
 FutureSystems enables users to easily explore the most latest releases of cloud
 platforms. OpenStack Havana is currently available on *india.futuregrid.org* and
 OpenStack Juno will be supported very soon.
 
  - Step 4: `OpenStack on FutureSystems <http://cloudmesh.github.io/introduction_to_cloud_computing/iaas/openstack.html>`_
+
+.. |location_link| raw:: html
+
+   <a href="http://geoiptool.com" target="_blank">check your location here</a>
 
 Interactive Shell: Cloudmesh
 ----------------------------
