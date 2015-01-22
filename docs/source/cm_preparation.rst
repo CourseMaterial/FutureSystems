@@ -74,7 +74,7 @@ By default your username and a number will be used that will be
 automatically increased. Thus we recommend that you avoid using this
 command::
 
-    cm label --prefix=test --id=1
+    cm label --prefix=$USER --id=1
 
     
 Default Image

@@ -13,7 +13,7 @@ Launcher import command
 Launcher registers local cookbooks from the yaml file
 (cloudmesh\_launcher.yaml)
 
-.. code:: python
+::
 
     cm launcher import
 
@@ -35,7 +35,7 @@ Cloudmesh. You can choose one of the names to start ``Launcher``.
 .. note:: Registered Cookbooks can be found at:
 https://github.com/cloudmesh/chef
 
-.. code:: python
+::
 
     cm launcher menu
 
@@ -63,7 +63,7 @@ If you decide which cookbook you are going to use, you are ready to
 create a new ``launcher`` with the cookbook name. In this tutorial, we
 use ``hadoop`` as a desired cookbook.
 
-.. code:: python
+::
 
     cm launcher start hadoop
 
@@ -81,7 +81,7 @@ Launcher list command
 If your launcher has been successfully created, you can see it in the
 list of running launchers with ``list`` command.
 
-.. code:: python
+::
 
     cm launcher list
 
@@ -90,7 +90,7 @@ Launcher stop command
 
 ``stop`` command terminates your launcher.
 
-.. code:: python
+::
 
    cm launcher stop [name]
 
@@ -102,6 +102,6 @@ with ``export`` command. For example, we can generate a
 ``/tmp/cloudmesh_launcher.yaml`` file by exporting a registered
 cookbooks in the database.
 
-.. code:: python
+::
 
     cm launcher export /tmp/cloudmesh_launcher.yaml
