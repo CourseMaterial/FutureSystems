@@ -44,7 +44,7 @@ start virtual machines. This can be achieved by the ``select`` command
 
 .. code:: python
 
-    cm "cloud select india"
+    cm cloud select india
 
 .. note: this is a bit unintuitive and should probably be done with
 
@@ -52,18 +52,25 @@ Also, new command is available:
 
 .. code:: python
 
-    cm "cloud default india"
+    cm cloud default india
 
 Default keypair
 ~~~~~~~~~~~~~~~
 
 To gain access to the virtual machines, you need to have a key
 registered with the cloud. If you don't have a default keypair, you need
-to set or need to specify which keypair you are going use for the vm.
+to set or need to specify which keypair you are going use for
+the vm. As you may be in a group and other users also could store
+their keys in the group key repository, it is necessary to distinguich
+them. On india you have a username that you can print with::
+
+  echo $USER
+
+and use this name as it is a unique prefix. 
 
 .. code:: python
 
-    cm "key default test-key"
+    cm key default $USER-key
 
 VM Name
 ~~~~~~~
@@ -76,7 +83,7 @@ command.
 
 .. code:: python
 
-    cm "label --prefix=test --id=1"
+    cm label --prefix=test --id=1
 
 Default Image
 ~~~~~~~~~~~~~
@@ -86,7 +93,7 @@ example, we use ubuntu-14.04 image as a default.
 
 .. code:: python
 
-    cm "default image --name=futuregrid/ubuntu-14.04"
+    cm default image --name=futuregrid/ubuntu-14.04
 
 Default Flavor
 ~~~~~~~~~~~~~~
@@ -97,7 +104,7 @@ flavor.
 
 .. code:: python
 
-    cm "default flavor --name=m1.small"
+    cm default flavor --name=m1.small
 
 Exercise
 --------
