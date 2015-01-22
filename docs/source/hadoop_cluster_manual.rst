@@ -117,27 +117,27 @@ steps:
 
 1 select cloud to work on, e.g.::
 
-    cm "cloud select india"
+    cm cloud select india
 
 2 activate the cloud, e.g.::
 
-    cm "cloud on india"
+    cm cloud on india
 
 3 set the default key to start VMs, e.g.::
 
-    cm "key default test-key"
+    cm key default test-key
 
 4 set the start name of VMs, which is prefix and index, e.g.::
 
-    cm "label --prefix=test --id=1"
+    cm label --prefix=test --id=1
 
 5 set image of VMs, e.g.::
 
-    cm "default image --name=futuregrid/ubuntu-14.04"
+    cm default image --name=futuregrid/ubuntu-14.04
 
 6 set flavor of VMs, e.g.::
 
-    cm "default flavor --name=m1.small"
+    cm default flavor --name=m1.small
 
 Then you may start the cluster with command 'cluster create' by providing the following values:
 
@@ -148,15 +148,15 @@ Then you may start the cluster with command 'cluster create' by providing the fo
 --ln: login name for VMs, e.g. ubuntu 
 e.g.::
 
-    cm "cluster create --count=3 --group=test --ln=ubuntu"
+    cm cluster create --count=3 --group=test --ln=ubuntu
 
 You may also provide cloud name, flavor or image in the command if you don't want to pre-set them. e.g.::
     
-    cm "cluster create --count=3 --group=test0 --ln=ubuntu --cloud=india --flavor=m1.small --image=futuregrid/ubuntu-14.04"
+    cm cluster create --count=3 --group=test0 --ln=ubuntu --cloud=india --flavor=m1.small --image=futuregrid/ubuntu-14.04
 
 to list the VMs you just created::
 
-    cm "vm list --refresh --group=test"
+    cm vm list --refresh --group=test
 
 Deploying Hadoop
 ----------------------------------------------------------------------
