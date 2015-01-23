@@ -17,14 +17,17 @@ Installation
 ------------
 
 Cloudmesh can be installed in different environments such as your desktop,
-OpenStack, or VirtualBox.  |quickstart| (external link)
+OpenStack, or VirtualBox.  |quickstart| *(external link)*
 describes easy installation on OpenStack India.  If you are looking for other
-methods to install Cloudmesh, please refere `here
-<http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/index.html>`_.
+methods to install Cloudmesh, please refere |cloudmeshsetup| *(external link)*
 
 .. |quickstart| raw:: html
 
         <a href="http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/setup_openstack.html" target="_blank">QuickStart</a>
+
+.. |cloudmeshsetup| raw:: html
+
+        <http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/setup/index.html>
 
 .. tip:: Approximate time: 30 minutes
 
