@@ -138,4 +138,4 @@ In the next page, we deploy a Hadoop cluster on FutureSystems using Cloudmesh.
 .. toctree::
    :maxdepth: 1
 
-   hadoop_cluster
+   *Next* - Deploying Hadoop Cluster <hadoop_cluster>

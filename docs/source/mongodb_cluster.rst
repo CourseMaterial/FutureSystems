@@ -1,5 +1,5 @@
-MongoDB Cluster
-===============
+MongoDB Shard Cluster
+=======================
 
 This tutorial shows deploying a sharded mongodb cluster on india.futuresystems.org.
 
@@ -256,4 +256,4 @@ In the next page, we explore several examples such as IPython, Chef, etc.
 .. toctree::
    :maxdepth: 1
 
-   additional_examples
+   Next - Other examples <additional_examples>

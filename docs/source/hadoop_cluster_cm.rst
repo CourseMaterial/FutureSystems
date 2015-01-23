@@ -176,5 +176,3 @@ In the next page, we deploy a Sharded MongoDB cluster on FutureSystems using Clo
    :maxdepth: 1
 
    Next - Deploying MongoDB Cluster <mongodb_cluster> 
-   Next: Deploying MongoDB Cluster <mongodb_cluster> 
-   Next Deploying MongoDB Cluster <mongodb_cluster> 

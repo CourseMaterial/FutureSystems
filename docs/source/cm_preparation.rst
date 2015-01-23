@@ -109,4 +109,4 @@ In the next page, we deploy a virtual cluster on FutureSystems using Cloudmesh.
 .. toctree::
    :maxdepth: 1
 
-   virtual_cluster
+   Next - Deploying Virtual Cluster <virtual_cluster>
