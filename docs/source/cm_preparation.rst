@@ -10,8 +10,8 @@ FutureSystems.
 
 Table of Contents
 
-* `Installation <#installation>`_
-* `Configuration <#configuration>`_
+* `Installation <#id1>`_
+* `Configuration <#id2>`_
 
 Installation 
 ------------
