@@ -7,11 +7,15 @@ virtual machines.
 
 .. note:: Don't have Cloudmesh? see the `preparation <cm_preparation.html>`_
 
-Table of Contents
+**Table of Contents**
 
 * `Create Virtual Cluster <#create-virtual-cluster-with-3-virtual-machines>`_
 * `Login to Virtual Cluster <#id1>`_
 * `Terminate Virtual Cluster <#id2>`_
+
+*Navigation*
+
+`Next Page - Deploying Hadoop Cluster <hadoop_cluster.html>`_
 
 Tutorial: Creating Virtual Cluster 
 -----------------------------------

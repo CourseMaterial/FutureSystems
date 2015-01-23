@@ -19,9 +19,9 @@ environments on FutureSystems.  The main contents are:
 .. toctree::
    :maxdepth: 1
 
-   virtual_cluster
-   hadoop_cluster
-   mongodb_cluster
+   Tutorial 1: Deploying Virtual Cluster <virtual_cluster>
+   Tutorial 2: Deploying Hadoop Cluster <hadoop_cluster>
+   Tutorial 3: Deploying MongoDB Shard Cluster <mongodb_cluster>
 
 To build one of these clusters on FutureSystems, Cloudmesh uses OpenStack Heat
 and Chef recipes. Interactive shell, Cloudmesh, provides a powerful interface

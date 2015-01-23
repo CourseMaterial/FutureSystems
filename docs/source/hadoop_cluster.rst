@@ -8,12 +8,13 @@ Slides
 
     * Setup keys, setup permissions, reserve compute servers
       
-* In conlusion we have a much easier way to set up hadop clusters
+* In conlusion we have a much easier way to set up hadop clusters.
 
 .. * Alternatives: openstack ??? technology
+  
+*Navigation*
 
-   
-`Next page >> <mongodb_cluster.html>`_
+`Next page >> Deploying MongoDB Shard Cluster <mongodb_cluster.html>`_
 
 Introduction
 -------------
