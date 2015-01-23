@@ -13,15 +13,6 @@ If you are new to FutureSystems, you need to get a new account first.
 Computing resources on FutureSystems are only available to registered 
 accounts.
 
-.. - Step 1: `Create a portal account
-   <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#s-account-create-account>`_
-.. - Step 2: `Join a project or create
-   <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#join-a-project>`_
-.. - Step 3: `Upload a SSH Public Key
-   <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#upload-a-ssh-public-key>`_
-
- 
-
  - Step 1: |createaportalaccount| *(External link)*
  - Step 2: |joinaprojectorcreate| *(External link)*
  - Step 3: |uploadasshpublickey| *(External link)*
