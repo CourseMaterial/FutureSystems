@@ -47,7 +47,7 @@ You can create a virtual cluster with a group name *test* and 3 virtual instance
 
 ::
 
-    cm cluster create virtual_cluster --count=3 --ln=ubuntu
+    cm cluster create virtual_cluster --count=3
 
 You may also provide a cloud name, flavor or image as parameter in the
 command if you do not want to use the defaults. For example you can use
