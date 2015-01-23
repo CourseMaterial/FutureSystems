@@ -9,7 +9,9 @@ virtual machines.
 
 Table of Contents
 
-* `Creating Virtual Cluster <#tutorial-creating-virtual-cluster>`_
+* `Create Virtual Cluster <#create-virtual-cluster-with-3-virtual-machines>`_
+* `Login to Virtual Cluster <#login-to-virtual-cluster>`_
+* `Terminate Virtual Cluster <#terminate-virtual-cluster>`_
 
 Tutorial: Creating Virtual Cluster 
 -----------------------------------
@@ -54,7 +56,7 @@ command::
 
     cm vm list --refresh --group=virtual_cluster
 
-Login a node of Cluster
+Login to Virtual Cluster
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``vm login`` command can be used to ssh one of the nodes in the cluster.
