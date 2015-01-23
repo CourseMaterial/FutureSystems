@@ -9,7 +9,7 @@ virtual machines.
 
 Table of Contents
 
-* :ref:`tutorial-creating-virtual-cluster`
+* `Creating Virtual Cluster <#tutorial-creating-virtual-cluster>`_
 
 Tutorial: Creating Virtual Cluster 
 -----------------------------------
