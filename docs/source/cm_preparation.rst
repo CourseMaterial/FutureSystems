@@ -8,6 +8,11 @@ FutureSystems.
 
 .. note:: Don't have an FutureSystems account? Please `register <account.html>`_
 
+Table of Contents
+
+* `Installation <#installation>`_
+* `Configuration <#configuration>`_
+
 Installation 
 ------------
 
