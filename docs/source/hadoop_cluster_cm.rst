@@ -11,8 +11,8 @@ Table of Contents
 
 * `Start Cluster with launcher <#start-cluster>`_
 * `Check Status <#check-status-of-cluster>`_
-* `Login to Cluster <#login-to-cluster>`_
-* `Terminate Cluster <#terminate-cluster>`_
+* `Login to Cluster <#id1>`_
+* `Terminate Cluster <#id2>`_
 
 `Next Tutorial>> Deploying MongoDB Shard Cluster <mongodb_cluster.html>`_
 
