@@ -4,17 +4,15 @@ Deploying Hadoop Cluster
 Slides
 ----------------------------------------------------------------------
 
-* Deploying hadoop clusters may not be as easy as one may think.
+* Deploying hadoop clusters may not be as easy as one may think. (Tutorial 2.2.)
 
     * Setup keys, setup permissions, reserve compute servers
       
-* In conlusion we have a much easier way to set up hadop clusters.
+* In conlusion we have a much easier way to set up hadop clusters. (Tutorial 2.1.)
 
 .. * Alternatives: openstack ??? technology
   
-*Navigation*
-
-`Next page >> Deploying MongoDB Shard Cluster <mongodb_cluster.html>`_
+`Next Tutorial>> Deploying MongoDB Shard Cluster <mongodb_cluster.html>`_
 
 Introduction
 -------------
@@ -42,7 +40,7 @@ Hadoop Cluster Installation with ``cm launcher``
 .. toctree::
    :maxdepth: 1
 
-   hadoop_cluster_cm
+   Tutorial 2.1. Deploying Hadoop Cluster with Cloudmesh ``launcher`` <hadoop_cluster_cm>
 
 Hadoop Cluster (Manual Installation)
 ------------------------------------
@@ -50,7 +48,7 @@ Hadoop Cluster (Manual Installation)
 .. toctree::
    :maxdepth: 1
 
-   hadoop_cluster_manual
+   Tutorial 2.2. Deploying Hadoop Cluster (Manual Installation) <hadoop_cluster_manual>
 
 Next Step
 ------------------------------------
