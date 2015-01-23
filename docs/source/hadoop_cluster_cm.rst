@@ -7,8 +7,14 @@ update compute nodes (VMs) with selected applications. ``launcher`` command
 applies default settings to configure clusters with applications so users can
 avoid hassles of building clusters.
 
-.. contents:: Table of Contents
-   :depth: 2
+Table of Contents
+
+* `Start Cluster with launcher <#start-cluster>`_
+* `Check Status <#check-status-of-cluster>`_
+* `Login to Cluster <#login-to-cluster>`_
+* `Terminate Cluster <#terminate-cluster>`_
+
+`Next Tutorial>> Deploying MongoDB Shard Cluster <mongodb_cluster.html>`_
 
 Tutorial: Deploying Hadoop Cluster with ``cm launcher``
 ------------------------------------------------------
@@ -50,7 +56,7 @@ You expect the result similar to:
 * CREATE_IN_PROGRESS: cluster is not available because creating the cluster is in progress.
 * CREATE_COMPLETE: cluster has been created and it is ready to use.
 
-Login Cluster
+Login to Cluster
 ~~~~~~~~~~~~~~~~
 
 We use ``cm vm login`` command to ssh to one of the nodes in the cluster.
