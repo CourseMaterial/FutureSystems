@@ -8,7 +8,7 @@ Slides
 
     * Setup keys, setup permissions, reserve compute servers
       
-* In conlusion we have a much easier way to set up hadop clusters. (Tutorial 2.1.)
+* In conlusion we have a much easier way to set up hadop clusters. **(`Tutorial 2.1. <hadoop_cluster_cm.html>`_)**
 
 .. * Alternatives: openstack ??? technology
   
