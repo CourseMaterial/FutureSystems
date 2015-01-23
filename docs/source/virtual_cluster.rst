@@ -10,8 +10,8 @@ virtual machines.
 Table of Contents
 
 * `Create Virtual Cluster <#create-virtual-cluster-with-3-virtual-machines>`_
-* `Login to Virtual Cluster <#login-to-virtual-cluster>`_
-* `Terminate Virtual Cluster <#terminate-virtual-cluster>`_
+* `Login to Virtual Cluster <#id1>`_
+* `Terminate Virtual Cluster <#id2>`_
 
 Tutorial: Creating Virtual Cluster 
 -----------------------------------
