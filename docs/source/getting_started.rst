@@ -20,7 +20,7 @@ accounts.
 .. - Step 3: `Upload a SSH Public Key
    <http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#upload-a-ssh-public-key>`_
 
-
+ 
 
  - Step 1: |createaportalaccount| *(External link)*
  - Step 2: |joinaprojectorcreate| *(External link)*
@@ -47,7 +47,7 @@ OpenStack Juno will be supported very soon.
 
 .. - Step 4: `OpenStack on FutureSystems <http://cloudmesh.github.io/introduction_to_cloud_computing/iaas/openstack.html>`_
 
-
+ 
 
  - Step 4: |openstackonfuturesystems| *(External link)*
 
