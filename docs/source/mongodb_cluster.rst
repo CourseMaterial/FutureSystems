@@ -1,4 +1,4 @@
-MongoDB Shard Cluster
+MongoDB Sharded Cluster
 =======================
 
 This tutorial shows deploying a sharded mongodb cluster on india.futuresystems.org.
