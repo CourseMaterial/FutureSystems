@@ -44,7 +44,7 @@ start virtual machines. This can be achieved by the ``select`` command::
 
 .. note: this is a bit unintuitive and should probably be done with
 
-To set the indi cloud to be the default cloud you can use in addition
+To set the india cloud to be the default cloud you can use in addition
 the command::
 
     cm cloud default india
