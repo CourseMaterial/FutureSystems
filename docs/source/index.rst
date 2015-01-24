@@ -45,7 +45,11 @@ Support
 Resources
 ---------
 
+.. toctree::
+   :maxdepth: 1
+
+   Videos, Documentation, Source code <resources>
 .. - `Exercises <>`_
 .. - `Examples <>`_
-.. - `Videos <>`_
-- `Additional pages <additional_examples.html>`_
+
+.. - `Additional pages <additional_examples.html>`_
