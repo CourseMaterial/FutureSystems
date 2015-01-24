@@ -1,5 +1,8 @@
-More about Cloudmesh?
-======================
+Video Clips of Tutorial 
+-----------------------
+
+- Introduction to Cloud Computing on FutureSystems `Youtube <http://youtu.be/yeX14Q9ootI>`_ , `IU Box <https://iu.box.com/s/ihlaasn5s2x5i0u1b15jo21iosy6dcxo>`_
+- Cloudmesh commands `Youtube <http://youtu.be/tu789OKTyjg>`_, `IU Box <https://iu.box.com/s/f5jgtp1v6tghnsolnqh311v0z3u1jl8h>`_
 
 Cloudmesh Documentation
 -------------------------
@@ -14,7 +17,7 @@ Cloudmesh Download
 
    cm_download
 
-Cloudmesh Git
--------------
+Cloudmesh Source Code at Github
+-------------------------------
 
 https://github.com/cloudmesh/cloudmesh
