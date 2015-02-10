@@ -55,8 +55,10 @@ Next Step
 
 The next topic is deploying MongoDB Shard Cluster on FutureSystems.
 
-.. toctree::
-   :maxdepth: 1
+`Next Tutorial>> Deploying MongoDB Shard Cluster <mongodb_cluster.html>`_
 
-   *Next* - Deploying MongoDB Shard Cluster <hadoop_cluster_cm>
+.. .. toctree::
+..   :maxdepth: 1
+
+..   *Next* - Deploying MongoDB Shard Cluster <hadoop_cluster_cm>
 

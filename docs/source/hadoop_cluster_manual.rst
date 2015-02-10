@@ -342,7 +342,9 @@ Next Step
 
 In the next page, we deploy a Sharded MongoDB cluster on FutureSystems using Cloudmesh.
 
-.. toctree::
-   :maxdepth: 1
+`Next Tutorial>> Deploying MongoDB Shard Cluster <mongodb_cluster.html>`_
 
-   mongodb_cluster
+.. .. toctree::
+..   :maxdepth: 1
+
+..   mongodb_cluster
