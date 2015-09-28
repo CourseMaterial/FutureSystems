@@ -35,7 +35,7 @@ Compiling and Execution
   
   javac FirstProgram.java
    
-Now, you will have FirstProgram.class file on your system. We will execute the class file with ``java`` command.
+Now, you will have FirstProgram.class file on your system. Java Compiler (javac) creates Java bytecode with a ``.class`` extension. We will execute the class file with ``java`` command.
 
 ::
 
@@ -43,10 +43,13 @@ Now, you will have FirstProgram.class file on your system. We will execute the c
   My first program on Big Data Applications and Analytics!
 
 
-
 Python
 ^^^^^^^
-link
+Let's write a same program in Python.
+
+:download: `https://raw.githubusercontent.com/cglmoocs/PythonFiles/master/FirstProgram.py`
+
+
 
 First Program with system information
 -------------------------------------
