@@ -25,6 +25,25 @@ Java
 	  }
   }
 
+This example prints out the message on your screen by using ``println`` method in the ``System`` class.
+In Java Programming, you need to complie your code to execute.
+
+Compiling and Execution
+"""""""""""""""""""""""""""
+
+::
+  
+  javac FirstProgram.java
+   
+Now, you will have FirstProgram.class file on your system. We will execute the class file with ``java`` command.
+
+::
+
+  java FirstProgram
+  My first program on Big Data Applications and Analytics!
+
+
+
 Python
 ^^^^^^^
 link
