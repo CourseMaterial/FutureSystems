@@ -25,7 +25,7 @@ Java
 	  }
   }
 
-This example prints out the message on your screen by using ``println`` method in the ``System`` class.
+This example prints out the message on your screen by ``println`` method in the ``System`` class.
 In Java Programming, you need to complie your code to execute.
 
 Compiling and Execution
