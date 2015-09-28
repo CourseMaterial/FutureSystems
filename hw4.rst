@@ -49,7 +49,18 @@ Let's write a same program in Python.
 
 :download: `https://raw.githubusercontent.com/cglmoocs/PythonFiles/master/FirstProgram.py`
 
+.. code-block:: python
 
+   # Run python FirstProgram.py
+   print 'My first program on Big Data Applications and Analytics!'
+   
+Python function ``print`` simply displays a message on your screen. Compiling is not necessary in Python. You can run your code directly with ``python`` command.
+
+::
+
+   python FirstProgram.py
+   My first program on Big Data Applications and Analytics!
+   
 
 First Program with system information
 -------------------------------------
