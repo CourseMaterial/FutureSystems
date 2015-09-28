@@ -9,7 +9,7 @@ This code explains how to display a simple string on your screen. You can downlo
 
 Java
 ^^^^^
-:download: `https://raw.githubusercontent.com/cglmoocs/JavaFiles/master/FirstProgram.java`
+:download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgram.java`
 
 .. code-block:: java
 
@@ -64,6 +64,8 @@ Python function ``print`` simply displays a message on your screen. Compiling is
 
 First Program with system information
 -------------------------------------
+
+We now understand how to print out a message using Python or Java. System information such as time, date, user name or hostname (machine name) can be displayed as well with built-in functions in each language.
 
 link
 
