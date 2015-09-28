@@ -63,15 +63,97 @@ Python function ``print`` simply displays a message on your screen. Compiling is
    
 
 First Program with system information
--------------------------------------
+----------------------------------------------
+
+Java
+^^^^^^
 
 We now understand how to print out a message using Python or Java. System information such as time, date, user name or hostname (machine name) can be displayed as well with built-in functions in each language.
 
-link
+:download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgramWithSystemInfo.java`
+
+.. code-block:: java
+
+   import java.util.Date;
+   import java.text.DateFormat;
+   import java.text.SimpleDateFormat;
+   import java.net.InetAddress;
+   import java.net.UnknownHostException;
+
+   /**
+    *  * Sample Program with system information
+    *  *
+    *  * Compile : javac FirstProgramWithSystemInfo.java
+    *  *   Run    : java FirstProgramWithSystemInfo
+    *  */
+   public class FirstProgramWithSystemInfo {
+           public static void main(String[] args){
+   
+                   System.out.println("My first program with System Information!");
+   
+                   // Print Date with Time
+                   DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+                   Date date = new Date();
+                   System.out.println("Today is: " + dateFormat.format(date));
+                   // Print Username
+                   System.out.println("Username is: " + System.getProperty("user.name"));
+                   // Print hostname
+                   try {
+                           java.net.InetAddress localMachine = java.net.InetAddress.getLocalHost();
+                           System.out.println("Hostname is: " + localMachine.getHostName());
+                   } catch (UnknownHostException e) {
+                           e.printStackTrace();
+                           System.out.println("No host name: " + e.getMessage());
+                   }
+           }
+   }
+
+Compiling and Execution
+""""""""""""""""""""""""""""""
+
+::
+
+    javac FirstProgramWithSystemInfo.java
+    
+::
+ 
+    java FirstProgramWithSystemInfo
+    My first program with System Information!
+    Today is: 2015/01/01 18:54:10
+    Username is: albert
+    Hostname is: bigdata-host
 
 
-link
+Python
+^^^^^^^^^^
 
+
+:download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgramWithSystemInfo.py`
+
+.. code-block:: python
+
+   from datetime import datetime
+   import getpass
+   import socket
+
+   # Run python FirstProgramWithSystemInfo.py
+   print ('My first program with System Information!')
+
+   print ("Today is: " + str(datetime.now()))
+   print ("Username is: " + getpass.getuser())
+   print ("Hostname is: " + socket.gethostname())
+
+Execution
+"""""""""""""
+
+::
+
+   python  FirstProgramWithSystemInfo.py
+   My first program with System Information!
+   Today is: 2015-01-01 18:58:10.937227
+   Username is: albert
+   Hostname is: bigdata-host
+   
 Submission of First Program
 -------------------------------
 
